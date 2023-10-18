@@ -13,16 +13,14 @@
     <link rel="stylesheet" href="./assets/bootstrap.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="./styles.css">
-    
 </head>
 <body>
-    
-    
+
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
   
-          <a class="navbar-brand" href="#">Ginseng | جنسنج تروبيلوس &#9892;</a>
+          <a class="navbar-brand" href="#">Dia Plus | ديا بلس</a>
   
   
           <button
@@ -48,7 +46,7 @@
                   </li>
                   
                   <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="https://maaxpower.org/">الرئيسية</a>
+                      <a class="nav-link active" aria-current="page" href="#">الرئيسية</a>
                   </li>
   
             </ul>
@@ -58,7 +56,122 @@
   
   
         </div>
-      </nav>
+    </nav>
+
+    
+    <!-- Form & Offer -->
+    <section class="form-and-offer container">
+
+      <!-- Offer -->
+      <div class="offer-container">
+          <div class="countr_box">
+
+          <h2 class="h1">عرض حصري</h2>
+    
+          <div class="time">
+    
+                <div class="unit">
+                    <span class="days t"></span>
+                    <span>يوم</span>
+                </div>
+    
+                <div class="unit">
+                    <span class="hours t"></span>
+                    <span>ساعة</span>
+                </div>
+    
+                <div class="unit">
+                    <span class="minutes t"></span>
+                    <span>دقيقة</span>
+                </div>
+                
+                <div class="unit">
+                    <span class="seconds t"></span>
+                    <span>ثانية</span>
+                </div>
+    
+          </div>
+    
+          </div>
+
+        <div class="product-in-offer">
+          <div >
+            <img src="./assets/images/3.png" alt="product">
+            <p>ثلاث عبوات</p>
+            <p class="price">بـ 450 بدل <span>1160</span></p>
+          </div>
+          <div>
+            <img src="./assets/images/2.png" alt="product">
+            <p>عبوتين</p>
+            <p class="price">بـ 300 بدل <span>760</span></p>
+          </div>
+          <div>
+            <img src="./assets/images/1.png" alt="product">
+            <p>عبوة</p>
+            <p class="price">بـ 180 بدل <span>380</span></p>
+          </div>
+        </div>
+
+        <p class="tail">.ديابلس العلامة التجارية الاكثر مبيعا لعام 2019</p>
+      </div>
+
+      <!-- form -->
+      <div class="form-container" id="top">
+        <div class="success-overlay" id="success-overlay">
+          <img src="./assets/images/success-green-check-mark-icon.webp" alt="success icon">
+          <h1>تم تسجيل طلبك بنجاح</h1>
+          <h2>سوف يقوم احد ممثلي خدمة <br /> العملاء بالتواصل معك لاحقا</h2>
+        </div>
+        <form class="text-center" id="order-form" name="submit-to-google-sheet">
+
+          <h2>أطلب الآن</h2>
+          <h3>متوفر جميع طرق الدفع</h3>
+
+          <div class="mb-4">
+            <input dir="rtl" name="name" placeholder="الاسم الكامل" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+          <!-- hidden input -->
+          <input dir="rtl" name="product" value="ديابلس" type="hidden" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+
+          <div class="input-group mb-4">
+            <span class="input-group-text" id="basic-addon1">+218</span>
+            <input dir="rtl" name="phone" placeholder="رقم الهاتف" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+          </div>
+
+          <div class="mb-4">
+            <textarea dir="rtl" name="address" placeholder="العنوان" class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+          </div>
+
+          <div class="mb-4" dir="rtl">
+            <select class="form-select" aria-label="Default select example" name="quantity">
+              <option selected>اختر العدد</option>
+              <option value="1">عبوة واحدة بـ 180 دل</option>
+              <option value="2">عبوتين بـ 300 دل</option>
+              <option value="3">ثلاث عبوات بـ 450 دل</option>
+              <option value="قطع متعدد">قطع متعدد تخفيض خاص 🚚</option>
+            </select>
+            <!-- <input dir="rtl" name="quantity" placeholder="الكمية" type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required> -->
+            <div id="emailHelp" dir="rtl" class=" mt-2 form-text text-white">جميع البيانات سرية ولا يتم مشاركتها مع أي طرف.</div>
+          </div>
+
+              <div class="btn-and-loader-box">
+                    <div class="spinner-border text-warning" role="status" id="text-warning">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                  
+                  <button type="submit" class="btn btn-primary" id="order-btn">أطلب الآن</button>
+              </div>
+        </form>
+      </div>
+
+
+    </section>
+
+    <!-- Payment Method -->
+    <section class="payment-method">
+        <h2 >متوفر جميع طرق الدفع</h2>
+      <img src="./assets/images/payment-method.jpg" alt="payment-method">
+    </section>
 
 
 
