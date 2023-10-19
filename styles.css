@@ -570,15 +570,13 @@ section.f {
   margin-top: 32px;
 }
 
-section.f div:nth-child(1){
+section.f div:nth-child(1) {
   background-color: #e44154;
   text-align: center;
 }
 
-section.f div:nth-child(2){
+section.f div:nth-child(2) {
   background-image: url("./assets/images/b.jpg");
-  /* height: 100vh; */
-  /* height: 550px; */
   width: 100% !important;
   background-repeat: no-repeat;
   background-size: contain;
@@ -586,30 +584,57 @@ section.f div:nth-child(2){
   background-position: bottom left;
 }
 
-section.f h1{
+section.f h1 {
   color: #fff;
   padding-top: 32px;
   padding-bottom: 32px;
   margin: 0;
 }
 
-
-section.f p{
+section.f p {
   color: #fff;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 32px;
 }
 
-section.f article{
+section.f article {
   width: 80%;
   padding: 32px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  /* background-color: red; */
 }
 
-section.f article p {
-  font-size: 32px;
+@media (max-width: 576px) {
+  section.f h1 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  section.f p {
+    font-size: 16px;
+  }
 }
+
+/* Expert Opinion */
+.expert-opinion {
+  color: #5eb5a2;
+  text-align: center;
+  font-weight: 800;
+  padding: 32px 0;
+  background-color: #eaf3f0;
+  margin-bottom: 0;
+
+}
+
+
+/* Section G */
+section.g {
+  padding: 0;
+  display: flex;
+  background-color: #eaf3f0;
+}
+
