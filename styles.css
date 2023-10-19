@@ -324,5 +324,155 @@ p.tail {
   }
 }
 
+/* Section A */
+section.a {
+  text-align: center;
+  background-color: #20364b;
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 
-/*  */
+section.a h1 {
+  background-color: #fdc220;
+  color: #20364b;
+  width: fit-content;
+  margin: auto;
+  border-radius: 6px;
+  padding: 3px 12px;
+  font-weight: 800;
+  font-size: 45px;
+  margin-bottom: 16px;
+}
+
+section.a h2 {
+  font-weight: 500;
+}
+
+section.a span {
+  color: #fdc220;
+}
+
+/* Section B */
+section.b {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+
+section.b div:nth-child(1) {
+  width: 30%;
+}
+
+section.b div:nth-child(2) {
+  width: 70%;
+  padding-left: 16px;
+}
+
+section.b h2 {
+  font-weight: 500;
+  /* font-size: 32px; */
+  margin-bottom: 32px;
+}
+
+section.b span {
+  font-weight: 800;
+}
+
+section.b img {
+  border: 3px solid #20364b;
+  width: 100%;
+  border-radius: 16px;
+}
+
+@media (max-width: 767.98px) {
+  section.b h2 {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section.b h2 {
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+}
+
+/* Section C */
+section.c {
+  text-align: center;
+  margin-top: 32px;
+}
+
+section.c h2 {
+  font-size: 40px;
+  font-weight: 800;
+  color: #292929;
+  text-align: end;
+  padding: 16px;
+  padding-top: 0;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  z-index: 999;
+}
+
+section.c h2::before {
+  content: "";
+  position: absolute;
+  width: 269px;
+  background-color: #fdc220;
+  height: 19px;
+  left: 11px;
+  bottom: 12px;
+  z-index: -1;
+}
+
+@media (max-width: 575.98px) {
+  section.c h2 {
+    font-size: 29px;
+  }
+
+  section.c h2::before {
+    width: 197px;
+  }
+}
+
+/* Section D */
+section.d {
+  background-color: #fdc220;
+  margin-top: 16px;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+section.d div {
+  padding: 32px;
+}
+
+section.d li {
+  font-weight: 800;
+}
+
+section.d p {
+  color: rgb(82, 82, 82);
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 575.98px) {
+  section.d p {
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  section.d li {
+    font-size: 24px;
+  }
+
+  section.d ul {
+    padding-left: 0;
+  }
+}
