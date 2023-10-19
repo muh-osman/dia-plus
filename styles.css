@@ -719,6 +719,7 @@ section.i h1 {
   font-weight: 600;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: #425776;
 }
 
 section.i h3 {
@@ -727,6 +728,7 @@ section.i h3 {
   padding-bottom: 32px;
   background-color: #99c4f9;
   margin: 0;
+  color: #425776;
 }
 
 @media (max-width: 767.98px) {
@@ -800,6 +802,7 @@ section.j p {
   padding: 10px 20px;
   border-bottom-left-radius: 22px;
   border-bottom-right-radius: 22px;
+  color: #425776;
 }
 
 /* Section L */
@@ -924,3 +927,68 @@ section.m span {
 }
 
 /* Section N */
+section.n {
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(#99c4f9, #b8d6fc);
+}
+
+section.n p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #425776;
+}
+
+section.n p:nth-child(6) {
+  margin-top: 32px;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+section.n div:nth-child(1) {
+  padding-top: 16px;
+  align-self: flex-end;
+}
+
+section.n div:nth-child(2) {
+  padding: 16px;
+  padding-left: 0;
+}
+
+@media (max-width: 991.98px) {
+  section.n p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  section.n p {
+    font-size: 16px;
+  }
+
+  section.n img {
+    width: 100%;
+  }
+
+  section.n div:nth-child(1) {
+  width: 100%;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section.n p {
+    font-size: 13px;
+    margin-bottom: 4px;
+  }
+
+  section.n div:nth-child(1),
+  section.n div:nth-child(2) {
+  width: 50%;
+  padding-right: 0;
+  }
+
+  section.n p:nth-child(6) {
+    margin-top: 8px;
+  }
+}
