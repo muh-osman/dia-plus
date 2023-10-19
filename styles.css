@@ -931,7 +931,8 @@ section.n {
   padding-left: 0;
   display: flex;
   align-items: center;
-  background-image: linear-gradient(#99c4f9, #b8d6fc);
+  /* background-image: linear-gradient(#99c4f9, #b8d6fc); */
+  background-color: #99c4f9;
 }
 
 section.n p {
@@ -972,7 +973,7 @@ section.n div:nth-child(2) {
   }
 
   section.n div:nth-child(1) {
-  width: 100%;
+    width: 100%;
   }
 }
 
@@ -984,8 +985,8 @@ section.n div:nth-child(2) {
 
   section.n div:nth-child(1),
   section.n div:nth-child(2) {
-  width: 50%;
-  padding-right: 0;
+    width: 50%;
+    padding-right: 0;
   }
 
   section.n p:nth-child(6) {
