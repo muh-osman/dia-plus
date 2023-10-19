@@ -476,3 +476,140 @@ section.d p {
     padding-left: 0;
   }
 }
+
+/* Section E */
+section.e {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+section.e div:nth-child(1) {
+  width: 70%;
+  padding-top: 32px;
+}
+
+section.e div:nth-child(2) {
+  width: 30%;
+}
+
+section.e img {
+  width: 100%;
+}
+
+section.e p {
+  font-weight: 500;
+}
+
+section.e p:nth-child(7) {
+  color: red;
+}
+
+section.e a {
+  font-weight: 600;
+  background-color: #fdc220;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 35px;
+  border-radius: 32px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+section.e a:hover {
+  background-color: #ffbb00;
+}
+
+section.e span:nth-child(1) {
+  border: 1px solid red;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: 600;
+}
+
+section.e span:nth-child(2) {
+  background-color: #fdc220;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 767.98px) {
+  section.e {
+    font-size: 20px;
+  }
+
+  section.e div:nth-child(1) {
+    padding-top: 22px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section.e {
+    font-size: 14px;
+  }
+
+  section.e p {
+    margin-bottom: 8px;
+  }
+
+  section.e div:nth-child(1) {
+    padding-top: 16px;
+  }
+
+  section.e a {
+    margin-bottom: 8px;
+  }
+}
+
+/* Section F */
+section.f {
+  padding: 0;
+  margin-top: 32px;
+}
+
+section.f div:nth-child(1){
+  background-color: #e44154;
+  text-align: center;
+}
+
+section.f div:nth-child(2){
+  background-image: url("./assets/images/b.jpg");
+  /* height: 100vh; */
+  /* height: 550px; */
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #5eb5a2;
+  background-position: bottom left;
+}
+
+section.f h1{
+  color: #fff;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin: 0;
+}
+
+
+section.f p{
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+section.f article{
+  width: 80%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  /* background-color: red; */
+}
+
+section.f article p {
+  font-size: 32px;
+}
