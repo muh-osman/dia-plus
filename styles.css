@@ -808,6 +808,7 @@ section.j p {
 /* Section L */
 section.l {
   margin-top: 32px;
+  margin-bottom: 32px;
 }
 section.l p {
   font-weight: 500;
@@ -815,7 +816,7 @@ section.l p {
 }
 
 section.l img {
-  width: 50px;
+  width: 40px;
 }
 
 @media (max-width: 991.98px) {
@@ -840,7 +841,7 @@ section.l img {
 
 @media (max-width: 575.98px) {
   section.l img {
-    width: 22px;
+    width: 20px;
   }
 
   section.l p {
@@ -1192,6 +1193,10 @@ section.r img {
   padding: 3px;
 }
 
+section.r p {
+  font-weight: 500;
+}
+
 .one::before,
 .three::before {
   content: "";
@@ -1259,7 +1264,7 @@ section.r img {
 
 /* Section T */
 section.t {
-  margin-top: 32px;
+  margin-top: 16px;
   padding: 0;
 }
 
@@ -1437,7 +1442,7 @@ section.w h1 {
 
 /* Footer */
 footer p {
-  height: 100px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
