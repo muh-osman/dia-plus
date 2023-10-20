@@ -1255,6 +1255,59 @@ section.t p {
   }
 }
 
+/* Section U */
+section.u {
+  text-align: center;
+  background-color: #f4cb01;
+  padding: 16px;
+}
+
+section.u div{
+  border-bottom: 3px solid #fff;
+  width: fit-content;
+  margin: auto;
+}
+
+section.u h1{
+  color: #006afe;
+  font-weight: 800;
+}
+
+section.u h2{
+  color: #425776;
+}
+
+@media (max-width: 575.98px) {
+  section.u h2{
+    font-size: 16px;
+  }
+}
+
+
+/* Section V */
+
+/* Section W */
+section.w {
+  text-align: center;
+  padding: 0;
+}
+
+section.w img{
+  width: 100%;
+}
+
+section.w h1{
+  background-color: #f4cb01;
+  color: #fff;
+  font-weight: 600;
+  padding:16px;
+}
+
+@media (max-width: 575.98px) {
+  section.w h1{
+    font-size: 16px;
+  }
+}
 
 
 
