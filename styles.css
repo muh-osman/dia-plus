@@ -924,6 +924,10 @@ section.m span {
     font-size: 24px;
     font-weight: 800;
   }
+
+  section.m {
+    padding: 16px;
+  }
 }
 
 /* Section N */
@@ -1084,5 +1088,169 @@ section.p p {
 
   section.p p {
     margin-bottom: 6px;
+  }
+}
+
+/* Section Q */
+section.q {
+  margin-top: 32px;
+  text-align: center;
+}
+section.q h1 {
+  color: #fff;
+  background-color: #000;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+section.q h2 {
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+section.q img {
+  width: 100%;
+}
+
+@media (max-width: 767.98px) {
+  section.q h2 {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section.q {
+    padding: 0;
+  }
+
+  section.q h2 {
+    font-size: 16px;
+  }
+
+  section.q h1 {
+    font-size: 24px;
+  }
+}
+
+/* Section T */
+section.t {
+  margin-top: 32px;
+  padding: 0;
+}
+
+section.t h1 {
+  background-color: #006afe;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 16px;
+  text-align: center;
+}
+
+section.t h2 {
+  color: #006afe;
+  background-color: #f4f4ea;
+  padding: 16px;
+  padding-bottom: 0;
+  text-align: center;
+  margin: 0;
+  font-weight: 600;
+}
+
+section.t .t-tt div p span img {
+  width: 30px;
+  height: 30px;
+}
+
+section.t .cc img {
+  width: 100%;
+  filter: drop-shadow(5px 5px 0px #f4cb01);
+}
+
+section.t p {
+  font-weight: 500;
+}
+
+section.t .t-tt {
+  background-color: #f4f4ea;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+}
+
+section.t p {
+  font-size: 32px;
+}
+
+.t-tt div:nth-child(1) {
+  width: 70%;
+}
+
+.t-tt div:nth-child(2) {
+  width: 30%;
+}
+
+@media (max-width: 991.98px) {
+  section.t p {
+    font-size: 18px;
+  }
+
+  .t-tt div:nth-child(1) {
+    width: 70%;
+  }
+
+  .t-tt div:nth-child(2) {
+    width: 30%;
+  }
+
+  section.t .t-tt div p span img {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  section.t p {
+    font-size: 16px;
+  }
+
+  .t-tt div:nth-child(1) {
+    width: 70%;
+  }
+
+  .t-tt div:nth-child(2) {
+    width: 30%;
+  }
+
+  section.t .t-tt div p span img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  section.t h1 {
+    font-size: 24px;
+  }
+
+  section.t h2 {
+    font-size: 14px;
+  }
+
+  section.t p {
+    font-size: 11px;
+  }
+
+  .t-tt div:nth-child(1) {
+    width: 70%;
+  }
+
+  .t-tt div:nth-child(2) {
+    width: 30%;
+  }
+
+  section.t .t-tt div p span img {
+    width: 20px;
+    height: 20px;
   }
 }
